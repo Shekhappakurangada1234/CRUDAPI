@@ -26,7 +26,6 @@ namespace CRUDAPI.Controllers
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
         private string x ="";
-
    public AccountController()
         {
             x = "punit";
