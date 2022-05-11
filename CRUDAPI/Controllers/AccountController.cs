@@ -19,7 +19,7 @@ using CRUDAPI.Results;
 
 namespace CRUDAPI.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
