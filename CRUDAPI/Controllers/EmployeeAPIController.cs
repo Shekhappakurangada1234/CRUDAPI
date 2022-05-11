@@ -14,6 +14,8 @@ namespace CRUDAPI.Controllers
         [Route("AllEmployeeDetails")]
         public IQueryable<EmployeeDetail> GetEmaployee()
         {
+
+
             try
             {
                 return objEntity.EmployeeDetails;
