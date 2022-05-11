@@ -25,9 +25,12 @@ namespace CRUDAPI.Controllers
     {
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
+        private string x ="";
 
-        public AccountController()
+   public AccountController()
         {
+            x = "punit";
+           
         }
 
         public AccountController(ApplicationUserManager userManager,
